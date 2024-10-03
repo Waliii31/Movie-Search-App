@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Day 16 Project: Movie Search App 🎬✨
 
-## Getting Started
+Welcome to Day 16 of my **30 Days 30 Projects Challenge**!
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The **Movie Search App** is a dynamic web application that allows users to search for movies by title. Users can view detailed information about each movie, including its title, poster, and synopsis, all fetched from the OMDB API.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Search by Movie Title**: Easily find your favorite movies by entering their titles.
+- **Display Movie Details**: View detailed information such as the movie's title, poster, and synopsis.
+- **Responsive Design**: A fully responsive layout that works seamlessly on all devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Next.js**: Built using the Next.js framework.
+- **React**: Manages the UI components and fetches data.
+- **TypeScript**: Provides type safety and handles the logic.
+- **shadcn/ui**: Designed the UI with beautifully crafted components.
+- **Tailwind CSS**: Ensures a consistent and attractive design across the app.
+- **OMDB API**: Utilizes the Open Movie Database API to fetch movie details.
+- **Vercel**: Deployed the application for public access.
 
-To learn more about Next.js, take a look at the following resources:
+## Live Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Check out the live demo of the Movie Search App on Vercel:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[Live Demo](your-vercel-deployment-link) <!-- Replace with your live demo link -->
 
-## Deploy on Vercel
+## Screenshot
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![image](https://github.com/user-attachments/assets/d1a19758-e89c-4a4b-9067-1ca00506e663)
