@@ -49,8 +49,12 @@ export default function MovieSearch() {
         throw new Error(data.Error);
       }
       setMovieDetails(data); // Set movie details state with the fetched data
-    } catch (error: any) {
-      setError(error.message); // Set error state with the error message
+    } catch (error: unknown) {
+      if(error instanceof Error){
+        setError(error.message)
+      }else{
+        setError("An unknown error occured")
+      }
     } finally {
       setLoading(false); // Set loading to false after fetching data
     }
